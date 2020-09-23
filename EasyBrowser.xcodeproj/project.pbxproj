@@ -24,6 +24,7 @@
 		AE891CF7251BABF500AEE062 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE891CFA251BABF500AEE062 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE891CFC251BABF500AEE062 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE891D03251BAC1300AEE062 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +41,7 @@
 		AE891CE2251BABF200AEE062 = {
 			isa = PBXGroup;
 			children = (
+				AE891D03251BAC1300AEE062 /* README.md */,
 				AE891CED251BABF200AEE062 /* EasyBrowser */,
 				AE891CEC251BABF200AEE062 /* Products */,
 			);
