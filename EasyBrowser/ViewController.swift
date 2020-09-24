@@ -38,11 +38,9 @@ class ViewController: UIViewController, WKNavigationDelegate {
     }
     
     func openPage(action: UIAlertAction) {
-        if let url = URL(string: "https://" + action.title!) {
-            webView.load(URLRequest(url: url))
-        } else {
-            fatalError("No site to navigate to")
-        }
+        guard let url = URL(string: "https://" + action.title!) else { fatalError("No site to navigate to") }
+        
+        webView.load(URLRequest(url: url))
     }
     
 }
