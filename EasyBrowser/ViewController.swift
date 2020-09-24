@@ -76,6 +76,10 @@ class ViewController: UIViewController, WKNavigationDelegate {
                     return
                 }
             }
+            
+            let ac = UIAlertController(title: "I'm sorry.", message: "I can't do that Dave.", preferredStyle: .alert)
+            ac.addAction(UIAlertAction(title: "OK", style: .cancel))
+            present(ac, animated: true)
         }
         
         decisionHandler(.cancel)
