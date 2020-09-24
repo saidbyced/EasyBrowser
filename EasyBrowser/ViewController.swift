@@ -76,8 +76,9 @@ class ViewController: UIViewController, WKNavigationDelegate {
                     return
                 }
             }
-            
-            decisionHandler(.cancel)
         }
+        
+        decisionHandler(.cancel)
     }
+    
 }
